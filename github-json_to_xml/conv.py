@@ -10,5 +10,4 @@ def conv(user):
     x = {}
     x['wg'] = json.loads(s.text)
     y = xmltodict.unparse(x, pretty=True)
-    # print(y)
     return y
